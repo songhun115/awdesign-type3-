@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TYPE 3</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+<?php include("include/header.php"); ?>
+    <main class="view">
+        <section class="visual-area" id="section1">
+            <div class="box">
+                <div class="thumbnail"><img src="img/gallery/view/1.jpg" alt=""></div>
+                <div class="txt">
+                    <h3 data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">GRAND EPIC PROLOGUE</h3>
+                </div>
+            </div>
+        </section>
+        <section class="view-prologue" id="section2">
+            <div class="box">
+                <div class="content">
+                    <h3 data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">GRAND EPIC <br> PROLOGUE</h3>
+                    <p data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">이 호텔은 전 객실의 오션뷰를 토대로 환상적인 해돋이와 노을이 하나의 포토스팟이 됩니다.
+                        외부에 있는 야외 테라스, 야외수영장은 넓고 쾌적하며 <br>
+                        산책로도 제공되고 있어 최고의 휴식을 제공해 드립니다.<br>
+                        완벽한 시설과 서비스로 여러분의 편의를 도와드리겠습니다.</p>
+                </div>
+                <div class="thumbnail" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100"><img src="img/gallery/view/view-prologue1.jpg" alt=""></div>
+            </div>
+        </section>
+        <section class="view-moive dark-section" id="section3">
+            <div class="box">
+                <div class="movie-video">
+                    <h3 data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">PLAY MOIVE</h3>
+                    <iframe src="https://player.vimeo.com/video/1103681821?background=1&autopause=0" frameborder="0"
+                        allow="autoplay; loop; fullscreen" allowfullscreen></iframe>
+                    <div class="video-control">
+                        <button class="control-btn control-toggle" aria-label="Play/Pause">
+                            <img class="icon" src="img/gallery/common/play-btn.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+            <script>
+                $(function () {
+                    $('.movie-video').each(function () {
+                        const $wrap = $(this);
+                        const player = new Vimeo.Player($wrap.find('iframe')[0]);
+                        const $btn = $wrap.find('.control-toggle');
+                        const $icon = $btn.find('.icon');
+
+                        const playIcon = 'img/gallery/common/play-btn.png';
+                        const pauseIcon = 'img/gallery/common/stop-btn.png';
+
+                        function setUI(isPaused) {
+                            if (isPaused) {
+                                $icon.attr('src', playIcon);
+                                $btn.attr('aria-label', '재생');
+                            } else {
+                                $icon.attr('src', pauseIcon);
+                                $btn.attr('aria-label', '일시정지');
+                            }
+                        }
+
+                        // 초기 상태 동기화
+                        player.getPaused().then(setUI);
+
+                        // 상태 변화 이벤트 → 아이콘 자동 전환
+                        player.on('play', () => setUI(false));
+                        player.on('pause', () => setUI(true));
+                        player.on('ended', () => setUI(true));
+
+                        // 클릭 토글
+                        $btn.on('click', function (e) {
+                            e.preventDefault();
+                            player.getPaused().then(paused => paused ? player.play() : player.pause());
+                        });
+                    });
+                });
+            </script>
+        </section>
+        <section class="view-location" id="section4">
+            <div class="box">
+                <div class="map">
+                    
+                    <div id="daumRoughmapContainer1760344852970" class="root_daum_roughmap root_daum_roughmap_landing">
+                    </div>
+                    <script charset="UTF-8" class="daum_roughmap_loader_script"
+                        src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                    <!-- 3. 실행 스크립트 -->
+                    <script charset="UTF-8">
+                        new daum.roughmap.Lander({
+                            "timestamp": "1760344852970",
+                            "key": "aqs3gf8ocqj",
+                            "mapWidth": "1200",
+                            "mapHeight": "600"
+                        }).render();
+                    </script>
+                    <div class="info">
+                        <h5 data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">LOCATION GUIDE</h5>
+                        <p data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100"><b>도로명 주소 </b>: 대전광역시 서구 문예로15, 701호(탄방동)</p>
+                        <p data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100"><b>지번 주소 </b>: 대전광역시 서구 탄방동 732 그랑수아빌딩, 701호</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <div class="sub-navi">
+        <div class="box">
+            <div data-target="#section1"><span></span></div>
+            <div data-target="#section2"><span></span></div>
+            <div data-target="#section3"><span></span></div>
+            <div data-target="#section4"><span></span></div>
+        </div>
+    </div>
+    <div class="gnb-top">
+        <div class="box">
+            <div class="gnb-top">
+                <span href="#">TOP</span>
+            </div>
+        </div>
+    </div>
+    <div class="gnb-reser">
+        <div class="box">
+            <div class="gnb-reser">
+                <a href="#"><img src="img/gallery/common/calendar-black.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+
+    <?php include("include/footer.php"); ?>
+</body>
+
+</html>

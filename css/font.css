@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Calista';
+    font-weight: 300;
+    src: url('../font/Calista-Light.woff2') format('woff');
+}
+
+@font-face {
+    font-family: 'Calista';
+    font-weight: 400;
+    src: url('../font/Calista-Regular.woff2') format('woff');
+}
+
+@font-face {
+    font-family: 'Calista';
+    font-weight: 700;
+    src: url('../font/Calista-Bold.woff2') format('woff');
+}
+
+
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 300;
+    src: url('../font/Pretendard-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    src: url('../font/Pretendard-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    src: url('../font/Pretendard-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    src: url('../font/Pretendard-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    src: url('../font/Pretendard-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 800;
+    src: url('../font/Pretendard-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'lato';
+    font-weight: 300;
+    src: url('../font/Lato-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'lato';
+    font-weight: 400;
+    src: url('../font/Lato-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'lato';
+    font-weight: 500;
+    src: url('../font/Lato-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'lato';
+    font-weight: 600;
+    src: url('../font/Lato-Semibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'lato';
+    font-weight: 700;
+    src: url('../font/Lato-Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 200;
+    src: url('../font/Poppins-Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 300;
+    src: url('../font/Poppins-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    src: url('../font/Poppins-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 500;
+    src: url('../font/Poppins-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 600;
+    src: url('../font/Poppins-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 700;
+    src: url('../font/Poppins-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 800;
+    src: url('../font/Poppins-Black.woff') format('woff');
+}
