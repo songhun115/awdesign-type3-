@@ -4,12 +4,12 @@
                 <div class="foot-nav" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">
                     <h5>MENU</h5>
                     <ul>
-                        <li><a href="#">PRILOGUE</a></li>
-                        <li><a href="#">ROOMS</a></li>
-                        <li><a href="#">SPECIAL</a></li>
-                        <li><a href="#">TOUR</a></li>
-                        <li><a href="#">LOCATION</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">STAY</a></li>
+                        <li><a href="#">SPECIAL OFFERS</a></li>
+                        <li><a href="#">DINNING & CAFE</a></li>
                         <li><a href="#">RESERVATION</a></li>
+                        
                     </ul>
                 </div>
                 <div class="info" >

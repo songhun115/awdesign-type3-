@@ -9,14 +9,14 @@
             <nav class="nav">
                 <ul>
                     <li>
-                        <a href="#">ABOUT</a>
+                        <a href="sub1_view.html">ABOUT</a>
                         <ul class="sub-menu">
                             <li><a href="sub1_view.html">View</a></li>
                             <li><a href="sub1_tour.html">Tour guide</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">STAY</a>
+                        <a href="sub2_room1.html">STAY</a>
                         <ul class="sub-menu">
                             <li><a href="sub2_room1.html">Breezy Suite Room</a></li>
                             <li><a href="sub2_room1.html">Emerald Deluxe Suite</a></li>
@@ -27,7 +27,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">SPECIAL OFFERS</a>
+                        <a href="sub3_special.html">SPECIAL OFFERS</a>
                         <ul class="sub-menu">
                             <li><a href="sub3_special.html">Seminar room</a></li>
                             <li><a href="sub3_special.html">Swimming pool</a></li>
@@ -39,7 +39,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">DINING & CAFE</a>
+                        <a href="sub4_dinning.html">DINING & CAFE</a>
                         <ul class="sub-menu">
                             <li><a href="sub4_dinning.html">Dinning room</a></li>
                             <li><a href="sub4_dinning.html">Hotel lounge</a></li>
@@ -48,7 +48,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">RESERVATION</a>
+                        <a href="sub5_reser.html">RESERVATION</a>
                         <ul class="sub-menu">
                             <li><a href="sub5_reser.html">Reservation</a></li>
                             <li><a href="sub5_reser.html">실시간예약</a></li>
