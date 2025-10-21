@@ -32,6 +32,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="sub-content" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">
                 <div class="copy">
                     <p>copyright reserved. photo & designed by <a href="http://www.always-design.com" target="_blank"
@@ -41,6 +42,9 @@
                     <a href="#">관리자로그인</a>
                 </div>
             </div>
+            <br>
+            <br>
+            <br>
         </div>
     </footer>
      <script>

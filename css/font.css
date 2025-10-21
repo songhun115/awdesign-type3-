@@ -112,3 +112,34 @@
     font-weight: 800;
     src: url('../font/Poppins-Black.woff') format('woff');
 }
+
+
+
+@font-face {
+    font-family: 'Glyphter';
+    src: url('../font/Glyphter.eot');
+    src: url('../font/Glyphter.eot?#iefix') format('embedded-opentype'),
+         url('../font/Glyphter.woff') format('woff'),
+         url('../font/Glyphter.svg#Glyphter') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*='icon-']:before{
+	display: inline-block;
+   font-family: 'Glyphter';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
+
+.icon-aw_logo_svg:before {
+    content: '\0042';
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 5px;
+    vertical-align: middle;
+    font-size: 25px;
+    color: #918f90;
+}

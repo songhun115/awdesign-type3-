@@ -16,19 +16,36 @@
     <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
 </head>
-
+<style>
+    .sub-navi .box div:nth-child(4){opacity: 0;}
+</style>
 <body>
 <?php include("include/header.php"); ?>
     <main id="dinning">
-        <section class="visual-area" id="section1">
-            <div class="box">
-                <div class="thumbnail"><img src="img/gallery/dinning/1.jpg" alt=""></div>
-                <div class="txt">
+        <section class="main-slider " id="section1">
+            <div class="swiper main-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/gallery/dinning/1.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="img/gallery/dinning/1.jpg" alt=""></div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+            <div class="txt">
                     <h3 data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">DINNING ROOM</h3>
                 </div>
-            </div>
+            <script>
+                var swiper = new Swiper(".main-swiper", {
+                    effect: 'fade',
+                    autoplay: true,
+                    loop:true,
+                    scrollbar: {
+                        el: ".swiper-scrollbar",
+                        hide: true,
+                    },
+                });
+            </script>
         </section>
-        <section class="dinning-content" id="section2">
+        <section class="dinning-content dark-section" id="section2">
             <div class="box">
                 <div class="left">
                     <div class="img" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">
