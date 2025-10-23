@@ -1,0 +1,17 @@
+ <div class="reser-preview" >
+            <div class="box">
+                <div class="thumbnail">
+                    <img src="img/gallery/main/common-reser1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>PROMISE FOR YOU</h3>
+                    <p>고급스러운 섭스로 여러분의 편안한 휴식을 약속드립니다. <br>
+                        모던한 디자인과 세련된 인테리어, <br class="mb-obj"> 그리고 자연의 아름다움을 담아낸 인테리어로 <br>
+                        특별한 경험과 휴식을 제공하는 호텔을 경험하세요.
+                    </p>
+                    <div class="reser">
+                        <a href="#">BOOKING</a>
+                    </div>
+                </div>
+            </div>
+        </div>

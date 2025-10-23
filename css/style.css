@@ -43,7 +43,7 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
 .m-nav.active{opacity: 1; visibility: visible;  background-color: #fff;}
 .m-nav .box{ display: flex; justify-content:center; align-items: center; height: 100%;}
 .m-nav .box > ul > li{ text-align: center; margin: 40px 0;}
-.m-nav .box > ul > li ul li{margin: 10px 0;}
+.m-nav .box > ul > li ul li{margin: 15px 0;}
 
 .gnb-top{    position: fixed;bottom: 10%;right: 9%;transform: translateY(-50%);z-index: 1;}
 .gnb-top > .box > div{width: 45px; height: 45px; display: flex;justify-content: center; align-items: center;  background-color: #fff; border-radius: 45px;  cursor: pointer;}
@@ -62,7 +62,10 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
 .footer .box .content .sns .sns-list {display: flex; gap: 20px; justify-content: center;}
 .footer .box .sub-content{display: flex; justify-content: space-between; margin-top: 40px;}
 .footer .box .sub-content {font-size: 12px;}
+.mb-obj{display: none;}
 @media(max-width:1240px){ 
+    .footer .logo img{ max-width: 130px;}
+    .mb-obj{display: block;}
     .page-navi{right: 20px;}
     #header {padding: 20px; height: auto;}
     #header .logo img{max-width: 140px;}
@@ -138,6 +141,7 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
 #room .main-slider .swiper-scrollbar{width: 80%;}    
 #room .main-slider .txt{width: 100%; text-align: center;}
 #room .main-slider .txt h3{font-size: 24px;}
+.room-preview .box .room-info .room-list ul li span{opacity: 1; visibility: visible; font-size: 13px; margin-top: 0;}
 }
 
 @media(hover){
@@ -155,7 +159,7 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
     .room-preview .box .room-info .title p{font-size: 10px;}
     .room-preview .box .room-info{margin-right: 0; width: 100%; padding: 0 20px; box-sizing: border-box;}
     .room-preview .box .room-info .room-list ul li{padding: 20px 10px; width: 100%; box-sizing: border-box;}
-    .room-preview .box .room-info .room-list ul li h5{font-size: 14px;}
+    .room-preview .box .room-info .room-list ul li h5{font-size: 13px;}
     .room-preview .box .room-info .room-list ul li a{font-size: 13px; opacity: 1;visibility: visible;}
 }
 
@@ -515,7 +519,7 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
 #reser .reser-info .reser-toggle{display: flex; flex-direction: column; gap: 30px;}
 #reser .reser-info .reser-toggle > div{cursor: pointer; color: #231f20;}
 #reser .reser-info .reser-toggle > div .info-content{padding-bottom: 50px;}
-#reser .reser-info .reser-toggle > div h4{font-size: 32px; font-family: 'Calista'; padding-bottom: 10px; margin-bottom: 30px; border-bottom: 0.5px solid #000; }
+#reser .reser-info .reser-toggle > div h4{font-size: 30px; font-family: 'Calista'; padding-bottom: 10px; margin-bottom: 30px; border-bottom: 0.5px solid #000; }
 #reser .reser-info .reser-toggle > div h4{position: relative;  padding-right: 20px;}
 #reser .reser-info .reser-toggle > div h4::after{content:""; position: absolute; right: 10px; top: 50%; transform: translateY(-50%); width: 20px; height: 1px; background-color: #231f20;}
 #reser .reser-info .reser-toggle > div h4::before{content:""; position: absolute; right: 20px; top: 50%; transform: translateY(-50%); width: 1px; height: 20px; background-color: #231f20;}
@@ -536,6 +540,8 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
 #reser .price-table th {background: #8a8889; font-weight: 600;color: #fff;}
 
 @media(max-width:1240px){
+    #reser .reser-info .reser-toggle .point ul li a{font-size: 14px; margin-bottom: 10px; flex-direction: column; align-items: flex-start;}
+    
     #reser .reser-info .reser-toggle > div h4::after{top: 30%;}
     #reser .reser-info .reser-toggle > div h4::before{top: 30%;}
     #reser .reser-info{padding: 100px 20px 50px 20px;box-sizing: border-box;}    
@@ -560,21 +566,21 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
 #reser .reser-guide .box .refund  table td{border-bottom: 1px solid #d8d8d9;}
 #reser .reser-guide .box{max-width: 1400px; margin: 0 auto; display: flex; gap: 100px;}
 #reser .reser-guide .box > ul, #reser .reser-guide .refund{width: 50%;}
-#reser .reser-guide .box > div  h4{font-size: 24px; margin-bottom: 60px;font-family: 'Calista';}
+#reser .reser-guide .box > div h4{font-size: 30px; margin-bottom: 60px;font-family: 'Calista';}
 #reser .reser-guide .box .guide ul li {margin-bottom: 30px;}
 #reser .reser-guide .box .guide ul li h5{font-weight: 600; margin-bottom: 10px;}
 #reser .reser-guide .box .guide ul li p{line-height: 1.5; text-indent: -12px; margin-left: 12px;}
 
 #reser .reser-guide .box .refund p{line-height: 1.5; text-indent: -12px; margin-left: 12px;}
 #reser .reser-guide .box > div h4{border-bottom: 1px solid #000; padding-bottom: 10px;}
-#reser .reser-guide .box .refund .red{color: red;}
+#reser .reser-guide .box .refund .red{color: #db0000;}
 @media(max-width:1240px){
     #reser .reser-guide .box{flex-direction: column; padding: 0 20px 100px 20px;gap:50px ;}
     #reser .reser-guide .box > ul, #reser .reser-guide .refund{width: 100%;}
     #reser .reser-guide .res-table{width: 100%;}
     #reser .reser-guide .box > div h4{margin-bottom: 30px;}
     #reser .reser-guide .box .guide ul li{font-size: 14px;}
-    #reser .reser-guide .box > div h4{margin-bottom: 15px;}
+    #reser .reser-guide .box > div h4{margin-bottom: 15px; font-size: 21px;}
     #reser .reser-guide .box .refund p{font-size: 14px;}
     .main-slider .swiper-scrollbar {overflow: hidden;}
 }

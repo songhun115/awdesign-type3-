@@ -4,11 +4,11 @@
                 <div class="foot-nav" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">
                     <h5>MENU</h5>
                     <ul>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">STAY</a></li>
-                        <li><a href="#">SPECIAL OFFERS</a></li>
-                        <li><a href="#">DINNING & CAFE</a></li>
-                        <li><a href="#">RESERVATION</a></li>
+                        <li><a href="sub1_view.html">ABOUT</a></li>
+                        <li><a href="sub2_room1.html">STAY</a></li>
+                        <li><a href="sub3_special.html">SPECIAL OFFERS</a></li>
+                        <li><a href="sub4_dinning.html">DINNING & CAFE</a></li>
+                        <li><a href="sub5_reser.html">RESERVATION</a></li>
                         
                     </ul>
                 </div>
@@ -33,7 +33,7 @@
                 </div>
             </div>
             
-            <div class="sub-content" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">
+            <div class="sub-content" >
                 <div class="copy">
                     <p>copyright reserved. photo & designed by <a href="http://www.always-design.com" target="_blank"
                             class="icon-aw_logo_svg">언제나,디자인</a> </p>
