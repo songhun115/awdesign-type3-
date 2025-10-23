@@ -63,9 +63,11 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
 .footer .box .sub-content{display: flex; justify-content: space-between; margin-top: 40px;}
 .footer .box .sub-content {font-size: 12px;}
 .mb-obj{display: none;}
+.pc-obj{display: block;}
 @media(max-width:1240px){ 
     .footer .logo img{ max-width: 130px;}
     .mb-obj{display: block;}
+    .pc-obj{display: none;}
     .page-navi{right: 20px;}
     #header {padding: 20px; height: auto;}
     #header .logo img{max-width: 140px;}
@@ -138,6 +140,8 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
 #room .main-slider .mouse{position: absolute; bottom: 15%; left: 50%; transform: translateX(-50%); z-index: 1; color: #fff; text-align: center;}
 #room.main .main-slider .mouse img{max-width: 29px; margin-bottom: 10px;}
 @media(max-width:1240px){
+    #room .main-slider{height: 350px; }
+    
 #room .main-slider .swiper-scrollbar{width: 80%;}    
 #room .main-slider .txt{width: 100%; text-align: center;}
 #room .main-slider .txt h3{font-size: 24px;}
@@ -215,6 +219,7 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
 #special .main-slider .mouse{position: absolute; bottom: 15%; left: 50%; transform: translateX(-50%); z-index: 1; color: #fff; text-align: center;}
 #room.main .main-slider .mouse img{max-width: 29px; margin-bottom: 10px;}
 @media(max-width:1240px){
+    #special .main-slider{height: 350px;}
 #special .main-slider .swiper-scrollbar{width: 80%;}    
 #special .main-slider .txt{width: 100%; text-align: center;}
 #special .main-slider .txt h3{font-size: 24px;}
@@ -262,7 +267,7 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
 @media(max-width:1240px){
     .tour .visual-area{height: auto;}
     .tour .visual-area .thumbnail img{height: 350px; object-fit: cover;}
-    .tour .visual-area .box .txt{font-size: 32px; width: 100%; text-align: center;}
+    .tour .visual-area .box .txt{font-size: 24px; width: 100%; text-align: center;}
     .tour .tour-list {padding: 50px 20px;}
     .tour .tour-list .box .title{margin-bottom: 50px; font-size: 32px;}
     .tour .tour-list .box ul {grid-template-columns: repeat(1,1fr);  box-sizing: border-box;gap: 50px 0;}
@@ -440,7 +445,12 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
     #special .special-content .box .content-info .txt p{margin-left: 10px;}
     #special .special-content .box .title{padding: 0 20px;}
     #special .special-content .box .thumbnail{width: 80%;}
-    #special .special-content .box .content-info .txt{top: 20px; right: 20px; width: 80%; font-size: 13px;}
+    /* #special .special-content .box .content-info .txt{top: 20px; right: 20px; width: 80%; font-size: 13px;} */
+    #special .special-content .box .content-info .txt{position: unset;}
+    #special .special-content .box .thumbnail{width: 100%;}
+    #special .special-content .box .thumbnail img{vertical-align: bottom;}
+    #special .special-content .box .content-info .txt{width: 100%; margin-left: 0; padding: 20px ; font-size: 13px; box-sizing: border-box;}
+    #special .special-content .box .content-info .txt p{margin-left: 0;}
 }
 #dinning{overflow:hidden;}
 #dinning .visual-area{height: 100vh;}
@@ -466,7 +476,7 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
 #dinning .dinning-img .dinning-conent > div ul li h6{margin-right: 30px; width: 170px; font-weight: 500;}
 #dinning .dinning-img .dinning-conent > div ul li span{font-weight: 200; margin-right: 40px;}
 @media(max-width:1240px){
-    #dinning .dinning-content {padding: 50px 20px; box-sizing: border-box;}
+    #dinning .dinning-content {padding: 100px 20px 50px 20px; box-sizing: border-box;}
     #dinning .dinning-content .box{flex-direction: column; gap: 40px;}    
     #dinning .dinning-content .box .left{width: 100%; padding: 0 ; margin-left: 0; gap: 40px; box-sizing: border-box;}
     #dinning .dinning-content .box .thumbnail{width: 100%;}
@@ -502,6 +512,7 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
 #dinning .main-slider .mouse{position: absolute; bottom: 15%; left: 50%; transform: translateX(-50%); z-index: 1; color: #fff; text-align: center;}
 #room.main .main-slider .mouse img{max-width: 29px; margin-bottom: 10px;}
 @media(max-width:1240px){
+    #dinning .main-slider {height: 350px;}
 #dinning .main-slider .swiper-scrollbar{width: 80%;}    
 #dinning .main-slider .txt{width: 100%; text-align: center;}
 #dinning .main-slider .txt h3{font-size: 24px;}
@@ -540,6 +551,8 @@ body{font-family: 'Pretendard'; background-color: #f1f2f2;}
 #reser .price-table th {background: #8a8889; font-weight: 600;color: #fff;}
 
 @media(max-width:1240px){
+    #reser .visual-area .box .txt{font-size: 24px;}
+    #reser .visual-area{height: 350px;}
     #reser .reser-info .reser-toggle .point ul li a{font-size: 14px; margin-bottom: 10px; flex-direction: column; align-items: flex-start;}
     
     #reser .reser-info .reser-toggle > div h4::after{top: 30%;}
