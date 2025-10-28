@@ -17,7 +17,7 @@
     <script src="js/main.js"></script>
 </head>
 <style>
-   
+
 </style>
 
 <body>
@@ -74,7 +74,7 @@
                     <img src="img/gallery/dinning/4.jpg" alt="">
                 </div>
                 <div class="dinning-conent" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000"
-                            data-aos-delay="100">
+                    data-aos-delay="100">
                     <div class="introduce">
                         <div class="tit">
                             <h5>INTRODUCE</h5>
@@ -122,34 +122,86 @@
             <div class="box">
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="img/gallery/dinning/dinning-list1.png" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/dinning/dinning-list2.png" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/dinning/dinning-list3.png" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/dinning/dinning-list1.png" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/dinning/dinning-list2.png" alt=""></div>
-                        <div class="swiper-slide"><img src="img/gallery/dinning/dinning-list3.png" alt=""></div>
+                        <div class="swiper-slide">
+                            <div class="thumbnail"><img src="img/gallery/dinning/dinning-list1.png" alt=""></div>
+                            <div class="bg">
+                                <div class="txt">
+                                    <h6># dinning & cafe 2</h6>
+                                    <h4>Hotel lounge</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="thumbnail"><img src="img/gallery/dinning/dinning-list2.png" alt=""></div>
+                            <div class="bg">
+                                <div class="txt">
+                                    <h6># dinning & cafe 2</h6>
+                                    <h4>Hotel lounge</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="thumbnail"><img src="img/gallery/dinning/dinning-list3.png" alt=""></div>
+                            <div class="bg">
+                                <div class="txt">
+                                    <h6># dinning & cafe 2</h6>
+                                    <h4>Hotel lounge</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="thumbnail"><img src="img/gallery/dinning/dinning-list1.png" alt=""></div>
+                            <div class="bg">
+                                <div class="txt">
+                                    <h6># dinning & cafe 2</h6>
+                                    <h4>Hotel lounge</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="thumbnail"><img src="img/gallery/dinning/dinning-list2.png" alt=""></div>
+                            <div class="bg">
+                                <div class="txt">
+                                    <h6># dinning & cafe 2</h6>
+                                    <h4>Hotel lounge</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="thumbnail"><img src="img/gallery/dinning/dinning-list3.png" alt=""></div>
+                            <div class="bg">
+                                <div class="txt">
+                                    <h6># dinning & cafe 2</h6>
+                                    <h4>Hotel lounge</h4>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="swiper-button-next"><img src="img/gallery/common/modal-right.png" alt=""></div>
                     <div class="swiper-button-prev"><img src="img/gallery/common/modal-left.png" alt=""></div>
                 </div>
                 <script>
                     var swiper = new Swiper(".mySwiper", {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
+                        loop: true,
+                        autoplay: {
+                            delay: 3000,
+                            disableOnInteraction: false,
+                        },
                         navigation: {
                             nextEl: ".swiper-button-next",
                             prevEl: ".swiper-button-prev",
                         },
-                         breakpoints: {
-        
-          1240: {
-            slidesPerView: 3,  //브라우저가 768보다 클 때
-           
-          },
-        
-        },
+                        breakpoints: {
+                            1240: {
+                                slidesPerView: 3,  //브라우저가 768보다 클 때
+                            },
+                        },
                     });
 
                 </script>
+
             </div>
         </section>
     </main>

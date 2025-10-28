@@ -20,7 +20,7 @@
                         <a href="tel:1522-5453">1522-5453</a>
                     </div>
                     <p data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="200">대전광역시 서구 문예로15, 701호(탄방동) <br>
-                        사업자 번호 : 1234-56-78901 (대표:언제나디자인)ㅣ농어촌민박신고번호 : 00-대전-2024-0000ㅣ통신판매번호 : 제 2024-대전-0000 호
+                        사업자 번호 : 1234-56-78901 (대표:언제나디자인)ㅣ<br class="mb-obj">농어촌민박신고번호 : 00-대전-2024-0000ㅣ<br class="mb-obj">통신판매번호 : 제 2024-대전-0000 호
                     </p>
                 </div>
                 <div class="sns" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">

@@ -43,6 +43,43 @@
                             </div>
                             </a>
                         </div>
+                        <div class="swiper-slide">
+                            <a href="sub3_special.html">
+                                <div class="thumbnail"><img src="img/gallery/main/common-special1.jpg" alt=""></div>
+                            <div class="txt">
+                                <span># SPECIAL 1</span>
+                                <h5>SEMINAR ROOM</h5>
+                            </div>
+                            </a>
+                            
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="sub3_special.html">
+                            <div class="thumbnail"><img src="img/gallery/main/common-special2.jpg" alt=""></div>
+                            <div class="txt">
+                                <span># SPECIAL 2</span>
+                                <h5>SEMINAR ROOM</h5>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="sub3_special.html">
+                            <div class="thumbnail"><img src="img/gallery/main/common-special3.jpg" alt=""></div>
+                            <div class="txt">
+                                <span># SPECIAL 3</span>
+                                <h5>SEMINAR ROOM</h5>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="sub3_special.html">
+                            <div class="thumbnail"><img src="img/gallery/main/common-special4.jpg" alt=""></div>
+                            <div class="txt">
+                                <span># SPECIAL 4</span>
+                                <h5>SEMINAR ROOM</h5>
+                            </div>
+                            </a>
+                        </div>
                     </div>
 
                 </div>
@@ -50,22 +87,30 @@
                 <div class="swiper-button-prev"></div>
                 <script>
                     var swiper = new Swiper(".special-swiper", {
-                        slidesPerView: 1.3,
-                        spaceBetween: 12,
-                        autoplay: true,
-                        loop: true,
-                        speed: 1000,
-                        breakpoints: {
-                            1240: {
-                                slidesPerView: 3,
-                                spaceBetween: 20,
-                            },
-                        },
-                        navigation: {
-                            nextEl: ".swiper-button-next",
-                            prevEl: ".swiper-button-prev",
-                        },
-                    });
+  slidesPerView: 1.3,
+  spaceBetween: 12,
+  loop: true,
+  loopAdditionalSlides: 1, // ✅ 기본값보다 작게 (점프 방지)
+  loopedSlides: 4, // ✅ 실제 슬라이드 개수와 일치시켜야 함
+  speed: 1000,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    1240: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      centeredSlides: false,
+    },
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
                 </script>
 
             </div>
