@@ -51,8 +51,8 @@
                         <a href="sub5_reser.html">RESERVATION</a>
                         <ul class="sub-menu">
                             <li><a href="sub5_reser.html">Reservation</a></li>
-                            <li><a href="sub5_reser.html">실시간예약</a></li>
-                            <li><a href="sub5_reser.html">Notice </a></li>
+                            <li><a href="#.html">실시간예약</a></li>
+                            <li><a href="sub5_notice.html">Notice </a></li>
                         </ul>
                     </li>
                 </ul>
