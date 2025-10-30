@@ -26,9 +26,9 @@
                 <div class="sns" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-delay="100">
                     <h5>SNS</h5>
                     <div class="sns-list">
-                        <a href="#"><img src="img/gallery/common/calendar.png" alt=""></a>
-                        <a href="#"><img src="img/gallery/common/insta.png" alt=""></a>
-                        <a href="#"><img src="img/gallery/common/blog.png" alt=""></a>
+                        <a href="#"><img src="img/gallery/common/foor-calender.svg" alt=""></a>
+                        <a href="#"><img src="img/gallery/common/foor-insta.svg" alt=""></a>
+                        <a href="#"><img src="img/gallery/common/foor-b.svg" alt=""></a>
                     </div>
                 </div>
             </div>
